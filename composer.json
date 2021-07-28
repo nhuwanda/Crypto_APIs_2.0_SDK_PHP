@@ -1,23 +1,12 @@
 {
-    "name": "cryptoapis/sdk",
-    "version": "1.1.0",
-    "description": "Crypto APIs 2.0 is a complex and innovative infrastructure layer that radically simplifies the development of any Blockchain and Crypto related applications. Organized around REST, Crypto APIs 2.0 can assist both novice Bitcoin/Ethereum enthusiasts and crypto experts with the development of their blockchain applications. Crypto APIs 2.0 provides unified endpoints and data, raw data, automatic tokens and coins forwardings, callback functionalities, and much more.",
-    "keywords": [
-        "cryptiapis",
-        "crypto",
-        "blockchain",
-        "php",
-        "sdk",
-        "rest",
-        "api"
-    ],
-    "homepage": "https://github.com/Crypto-APIs/Crypto_APIs_2.0_SDK_PHP#readme",
+    "name": "nhuwanda/cryptoapis_2.0_sdk_php",
+    "description": "Crypto APIs 2.0 Fork with Guzzle 7.*",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
-            "name": "CryptoAPIs",
-            "homepage": "https://cryptoapis.io/"
+            "name": "Ceropuntocero",
+            "email": "ceropuntocero@ceropuntocero.net"
         }
     ],
     "require": {
@@ -25,7 +14,7 @@
         "ext-curl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
-        "guzzlehttp/guzzle": "^6.2"
+        "guzzlehttp/guzzle": "^6.2|^7.0.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.0 || ^9.0",
@@ -36,5 +25,6 @@
     },
     "autoload-dev": {
         "psr-4": { "CryptoAPIs\\Test\\" : "test/" }
-    }
+    },
+    "minimum-stability": "dev"
 }
